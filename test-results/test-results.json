@@ -1,0 +1,349 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\youss\\Bamboo_Assesment\\playwright.config.js",
+    "rootDir": "C:/Users/youss/Bamboo_Assesment/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junit-results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/youss/Bamboo_Assesment/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/youss/Bamboo_Assesment/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "multi-product-checkout.spec.js",
+      "file": "multi-product-checkout.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "E-commerce Order Placement Test Suite",
+          "file": "multi-product-checkout.spec.js",
+          "line": 57,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC001: Place order with multiple products including price validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 28469,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[INFO] Test execution started\n"
+                        },
+                        {
+                          "text": "[INFO] Starting test: Place order with multiple products\n"
+                        },
+                        {
+                          "text": "[INFO] Generated test email: testuser_1766958267297_x3rnif@testmail.com\n"
+                        },
+                        {
+                          "text": "[INFO] Step 1: Navigating to website\n"
+                        },
+                        {
+                          "text": "[INFO] Step 2: User registration\n"
+                        },
+                        {
+                          "text": "Registration successful\n"
+                        },
+                        {
+                          "text": "[PASS] User registration successful\n"
+                        },
+                        {
+                          "text": "[PASS] User logged in and on dashboard\n"
+                        },
+                        {
+                          "text": "[INFO] Step 3: Processing 8 products from JSON\n"
+                        },
+                        {
+                          "text": "[INFO] Processing product 1: Simple Computer (computers)\n"
+                        },
+                        {
+                          "text": "[INFO] Selected computer: Simple Computer\n"
+                        },
+                        {
+                          "text": "[INFO] Configured Processor: Slow\n"
+                        },
+                        {
+                          "text": "[INFO] Configured RAM: 2 GB\n"
+                        },
+                        {
+                          "text": "[INFO] Configured HDD: 320\n"
+                        },
+                        {
+                          "text": "[INFO] Configured Software: Image Viewer\n"
+                        },
+                        {
+                          "text": "Simple Computer added successfully\n"
+                        },
+                        {
+                          "text": "[PASS] Computer added to cart\n"
+                        },
+                        {
+                          "text": "[INFO] Processing product 2: Blue and green Sneaker (apparel)\n"
+                        },
+                        {
+                          "text": "[INFO] Selected apparel: Blue and green Sneaker\n"
+                        },
+                        {
+                          "text": "[INFO] Configured size: 10, color: Black\n"
+                        },
+                        {
+                          "text": "Apparel added successfully\n"
+                        },
+                        {
+                          "text": "[PASS] Apparel added to cart\n"
+                        },
+                        {
+                          "text": "[INFO] Processing product 3: 3rd Album (digital)\n"
+                        },
+                        {
+                          "text": "[INFO] Selected digital product: 3rd Album\n"
+                        },
+                        {
+                          "text": "[PASS] Digital downloads added\n"
+                        },
+                        {
+                          "text": "[INFO] Processing product 4: Music 1 (digital)\n"
+                        },
+                        {
+                          "text": "Music 1 added successfully\n"
+                        },
+                        {
+                          "text": "[INFO] Music 1 selected\n"
+                        },
+                        {
+                          "text": "[PASS] Digital downloads added\n"
+                        },
+                        {
+                          "text": "[INFO] Processing product 5: Music 2 (digital)\n"
+                        },
+                        {
+                          "text": "Music 2 added successfully\n"
+                        },
+                        {
+                          "text": "[INFO] Music 2 selected\n"
+                        },
+                        {
+                          "text": "[PASS] Digital downloads added\n"
+                        },
+                        {
+                          "text": "[INFO] Processing product 6: Smartphone (electronics)\n"
+                        },
+                        {
+                          "text": "[INFO] Selected cell phone: Smartphone\n"
+                        },
+                        {
+                          "text": "[INFO] Processing product 7: Phone Cover (electronics)\n"
+                        },
+                        {
+                          "text": "[INFO] Selected phone cover: Phone Cover\n"
+                        },
+                        {
+                          "text": "[INFO] Configured manufacturer: Apple, color: Blue\n"
+                        },
+                        {
+                          "text": "Phone Cover added successfully\n"
+                        },
+                        {
+                          "text": "[PASS] Phone cover added to cart\n"
+                        },
+                        {
+                          "text": "[INFO] Processing product 8: Diamond Heart (jewelry)\n"
+                        },
+                        {
+                          "text": "Diamond heart necklace added successfully\n"
+                        },
+                        {
+                          "text": "[PASS] Jewelry added to cart\n"
+                        },
+                        {
+                          "text": "[INFO] Step 4: Validating cart contents\n"
+                        },
+                        {
+                          "text": "Number of Products in the cart: 8 items.\n"
+                        },
+                        {
+                          "text": "[ { name: \u001b[32m'Simple Computer'\u001b[39m, price: \u001b[33m800\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m800\u001b[39m } ]\n"
+                        },
+                        {
+                          "text": "[\n  { name: \u001b[32m'Simple Computer'\u001b[39m, price: \u001b[33m800\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m800\u001b[39m },\n  { name: \u001b[32m'Blue and green Sneaker'\u001b[39m, price: \u001b[33m11\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m11\u001b[39m }\n]\n"
+                        },
+                        {
+                          "text": "[\n  { name: \u001b[32m'Simple Computer'\u001b[39m, price: \u001b[33m800\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m800\u001b[39m },\n  { name: \u001b[32m'Blue and green Sneaker'\u001b[39m, price: \u001b[33m11\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m11\u001b[39m },\n  { name: \u001b[32m'3rd Album'\u001b[39m, price: \u001b[33m1\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m1\u001b[39m }\n]\n"
+                        },
+                        {
+                          "text": "[\n  { name: \u001b[32m'Simple Computer'\u001b[39m, price: \u001b[33m800\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m800\u001b[39m },\n  { name: \u001b[32m'Blue and green Sneaker'\u001b[39m, price: \u001b[33m11\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m11\u001b[39m },\n  { name: \u001b[32m'3rd Album'\u001b[39m, price: \u001b[33m1\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m1\u001b[39m },\n  { name: \u001b[32m'Music 2'\u001b[39m, price: \u001b[33m3\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m3\u001b[39m }\n]\n"
+                        },
+                        {
+                          "text": "[\n  { name: \u001b[32m'Simple Computer'\u001b[39m, price: \u001b[33m800\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m800\u001b[39m },\n  { name: \u001b[32m'Blue and green Sneaker'\u001b[39m, price: \u001b[33m11\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m11\u001b[39m },\n  { name: \u001b[32m'3rd Album'\u001b[39m, price: \u001b[33m1\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m1\u001b[39m },\n  { name: \u001b[32m'Music 2'\u001b[39m, price: \u001b[33m3\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m3\u001b[39m },\n  { name: \u001b[32m'Music 2'\u001b[39m, price: \u001b[33m10\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m10\u001b[39m }\n]\n"
+                        },
+                        {
+                          "text": "[\n  { name: \u001b[32m'Simple Computer'\u001b[39m, price: \u001b[33m800\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m800\u001b[39m },\n  { name: \u001b[32m'Blue and green Sneaker'\u001b[39m, price: \u001b[33m11\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m11\u001b[39m },\n  { name: \u001b[32m'3rd Album'\u001b[39m, price: \u001b[33m1\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m1\u001b[39m },\n  { name: \u001b[32m'Music 2'\u001b[39m, price: \u001b[33m3\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m3\u001b[39m },\n  { name: \u001b[32m'Music 2'\u001b[39m, price: \u001b[33m10\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m10\u001b[39m },\n  { name: \u001b[32m'Smartphone'\u001b[39m, price: \u001b[33m100\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m100\u001b[39m }\n]\n"
+                        },
+                        {
+                          "text": "[\n  { name: \u001b[32m'Simple Computer'\u001b[39m, price: \u001b[33m800\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m800\u001b[39m },\n  { name: \u001b[32m'Blue and green Sneaker'\u001b[39m, price: \u001b[33m11\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m11\u001b[39m },\n  { name: \u001b[32m'3rd Album'\u001b[39m, price: \u001b[33m1\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m1\u001b[39m },\n  { name: \u001b[32m'Music 2'\u001b[39m, price: \u001b[33m3\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m3\u001b[39m },\n  { name: \u001b[32m'Music 2'\u001b[39m, price: \u001b[33m10\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m10\u001b[39m },\n  { name: \u001b[32m'Smartphone'\u001b[39m, price: \u001b[33m100\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m100\u001b[39m },\n  { name: \u001b[32m'Phone Cover'\u001b[39m, price: \u001b[33m10\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m10\u001b[39m }\n]\n"
+                        },
+                        {
+                          "text": "[\n  { name: \u001b[32m'Simple Computer'\u001b[39m, price: \u001b[33m800\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m800\u001b[39m },\n  { name: \u001b[32m'Blue and green Sneaker'\u001b[39m, price: \u001b[33m11\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m11\u001b[39m },\n  { name: \u001b[32m'3rd Album'\u001b[39m, price: \u001b[33m1\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m1\u001b[39m },\n  { name: \u001b[32m'Music 2'\u001b[39m, price: \u001b[33m3\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m3\u001b[39m },\n  { name: \u001b[32m'Music 2'\u001b[39m, price: \u001b[33m10\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m10\u001b[39m },\n  { name: \u001b[32m'Smartphone'\u001b[39m, price: \u001b[33m100\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m100\u001b[39m },\n  { name: \u001b[32m'Phone Cover'\u001b[39m, price: \u001b[33m10\u001b[39m, qty: \u001b[33m1\u001b[39m, total: \u001b[33m10\u001b[39m },\n  {\n    name: \u001b[32m'Black & White Diamond Heart'\u001b[39m,\n    price: \u001b[33m130\u001b[39m,\n    qty: \u001b[33m1\u001b[39m,\n    total: \u001b[33m130\u001b[39m\n  }\n]\n"
+                        },
+                        {
+                          "text": "[INFO] Found 8 items in cart\n"
+                        },
+                        {
+                          "text": "[INFO] Item 1: Simple Computer - Price: $800, Qty: 1, Total: $800 (PASS)\n"
+                        },
+                        {
+                          "text": "[INFO] Item 2: Blue and green Sneaker - Price: $11, Qty: 1, Total: $11 (PASS)\n"
+                        },
+                        {
+                          "text": "[INFO] Item 3: 3rd Album - Price: $1, Qty: 1, Total: $1 (PASS)\n"
+                        },
+                        {
+                          "text": "[INFO] Item 4: Music 2 - Price: $3, Qty: 1, Total: $3 (PASS)\n"
+                        },
+                        {
+                          "text": "[INFO] Item 5: Music 2 - Price: $10, Qty: 1, Total: $10 (PASS)\n"
+                        },
+                        {
+                          "text": "[INFO] Item 6: Smartphone - Price: $100, Qty: 1, Total: $100 (PASS)\n"
+                        },
+                        {
+                          "text": "[INFO] Item 7: Phone Cover - Price: $10, Qty: 1, Total: $10 (PASS)\n"
+                        },
+                        {
+                          "text": "[INFO] Item 8: Black & White Diamond Heart - Price: $130, Qty: 1, Total: $130 (PASS)\n"
+                        },
+                        {
+                          "text": "[INFO] UI Subtotal: $1065\n"
+                        },
+                        {
+                          "text": "[INFO] Calculated Subtotal: $1065\n"
+                        },
+                        {
+                          "text": "[PASS] Subtotal validation PASSED\n"
+                        },
+                        {
+                          "text": "[INFO] Step 5: Generating test evidence\n"
+                        },
+                        {
+                          "text": "[INFO] Evidence screenshot saved: C:\\Users\\youss\\Bamboo_Assesment\\test-results\\screenshots\\final-cart-1766958295295.png\n"
+                        },
+                        {
+                          "text": "[INFO] Cart summary saved: C:\\Users\\youss\\Bamboo_Assesment\\test-results\\cart-summary.json\n"
+                        },
+                        {
+                          "text": "[PASS] TEST COMPLETED SUCCESSFULLY\n"
+                        },
+                        {
+                          "text": "[PASS] Test TC001: Place order with multiple products including price validation - Status: passed\n"
+                        },
+                        {
+                          "text": "Report generated: C:\\Users\\youss\\Bamboo_Assesment\\test-results\\test-report.json\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-28T21:44:27.119Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ef018a5fa7d09520bae8-abea76a2a7db6109ebef",
+              "file": "multi-product-checkout.spec.js",
+              "line": 81,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-12-28T21:44:26.337Z",
+    "duration": 29437.45,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,54 @@
+2025-12-28T21:44:27.293Z - info - Test execution started
+2025-12-28T21:44:27.295Z - info - Starting test: Place order with multiple products
+2025-12-28T21:44:27.297Z - info - Generated test email: testuser_1766958267297_x3rnif@testmail.com
+2025-12-28T21:44:27.298Z - info - Step 1: Navigating to website
+2025-12-28T21:44:29.843Z - info - Step 2: User registration
+2025-12-28T21:44:31.130Z - pass - User registration successful
+2025-12-28T21:44:31.547Z - pass - User logged in and on dashboard
+2025-12-28T21:44:31.547Z - info - Step 3: Processing 8 products from JSON
+2025-12-28T21:44:31.548Z - info - Processing product 1: Simple Computer (computers)
+2025-12-28T21:44:32.456Z - info - Selected computer: Simple Computer
+2025-12-28T21:44:34.192Z - info - Configured Processor: Slow
+2025-12-28T21:44:34.223Z - info - Configured RAM: 2 GB
+2025-12-28T21:44:34.254Z - info - Configured HDD: 320
+2025-12-28T21:44:34.288Z - info - Configured Software: Image Viewer
+2025-12-28T21:44:34.646Z - pass - Computer added to cart
+2025-12-28T21:44:35.649Z - info - Processing product 2: Blue and green Sneaker (apparel)
+2025-12-28T21:44:36.189Z - info - Selected apparel: Blue and green Sneaker
+2025-12-28T21:44:38.008Z - info - Configured size: 10, color: Black
+2025-12-28T21:44:38.365Z - pass - Apparel added to cart
+2025-12-28T21:44:39.367Z - info - Processing product 3: 3rd Album (digital)
+2025-12-28T21:44:39.872Z - info - Selected digital product: 3rd Album
+2025-12-28T21:44:39.873Z - pass - Digital downloads added
+2025-12-28T21:44:40.880Z - info - Processing product 4: Music 1 (digital)
+2025-12-28T21:44:42.424Z - info - Music 1 selected
+2025-12-28T21:44:42.425Z - pass - Digital downloads added
+2025-12-28T21:44:43.435Z - info - Processing product 5: Music 2 (digital)
+2025-12-28T21:44:44.970Z - info - Music 2 selected
+2025-12-28T21:44:44.970Z - pass - Digital downloads added
+2025-12-28T21:44:45.974Z - info - Processing product 6: Smartphone (electronics)
+2025-12-28T21:44:46.972Z - info - Selected cell phone: Smartphone
+2025-12-28T21:44:47.980Z - info - Processing product 7: Phone Cover (electronics)
+2025-12-28T21:44:49.038Z - info - Selected phone cover: Phone Cover
+2025-12-28T21:44:50.174Z - info - Configured manufacturer: Apple, color: Blue
+2025-12-28T21:44:50.519Z - pass - Phone cover added to cart
+2025-12-28T21:44:51.549Z - info - Processing product 8: Diamond Heart (jewelry)
+2025-12-28T21:44:53.179Z - pass - Jewelry added to cart
+2025-12-28T21:44:54.183Z - info - Step 4: Validating cart contents
+2025-12-28T21:44:55.283Z - info - Found 8 items in cart
+2025-12-28T21:44:55.285Z - info - Item 1: Simple Computer - Price: $800, Qty: 1, Total: $800 (PASS)
+2025-12-28T21:44:55.285Z - info - Item 2: Blue and green Sneaker - Price: $11, Qty: 1, Total: $11 (PASS)
+2025-12-28T21:44:55.286Z - info - Item 3: 3rd Album - Price: $1, Qty: 1, Total: $1 (PASS)
+2025-12-28T21:44:55.287Z - info - Item 4: Music 2 - Price: $3, Qty: 1, Total: $3 (PASS)
+2025-12-28T21:44:55.288Z - info - Item 5: Music 2 - Price: $10, Qty: 1, Total: $10 (PASS)
+2025-12-28T21:44:55.288Z - info - Item 6: Smartphone - Price: $100, Qty: 1, Total: $100 (PASS)
+2025-12-28T21:44:55.289Z - info - Item 7: Phone Cover - Price: $10, Qty: 1, Total: $10 (PASS)
+2025-12-28T21:44:55.290Z - info - Item 8: Black & White Diamond Heart - Price: $130, Qty: 1, Total: $130 (PASS)
+2025-12-28T21:44:55.292Z - info - UI Subtotal: $1065
+2025-12-28T21:44:55.293Z - info - Calculated Subtotal: $1065
+2025-12-28T21:44:55.294Z - pass - Subtotal validation PASSED
+2025-12-28T21:44:55.294Z - info - Step 5: Generating test evidence
+2025-12-28T21:44:55.592Z - info - Evidence screenshot saved: C:\Users\youss\Bamboo_Assesment\test-results\screenshots\final-cart-1766958295295.png
+2025-12-28T21:44:55.593Z - info - Cart summary saved: C:\Users\youss\Bamboo_Assesment\test-results\cart-summary.json
+2025-12-28T21:44:55.593Z - pass - TEST COMPLETED SUCCESSFULLY
+2025-12-28T21:44:55.595Z - pass - Test TC001: Place order with multiple products including price validation - Status: passed

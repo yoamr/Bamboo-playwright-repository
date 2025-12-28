@@ -1,0 +1,282 @@
+{
+  "executionDate": "2025-12-28T21:44:27.106Z",
+  "totalDuration": 28596,
+  "steps": [
+    {
+      "timestamp": "2025-12-28T21:44:27.293Z",
+      "step": "Test execution started",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:27.295Z",
+      "step": "Starting test: Place order with multiple products",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:27.297Z",
+      "step": "Generated test email: testuser_1766958267297_x3rnif@testmail.com",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:27.298Z",
+      "step": "Step 1: Navigating to website",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:29.843Z",
+      "step": "Step 2: User registration",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:31.130Z",
+      "step": "User registration successful",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:31.547Z",
+      "step": "User logged in and on dashboard",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:31.547Z",
+      "step": "Step 3: Processing 8 products from JSON",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:31.548Z",
+      "step": "Processing product 1: Simple Computer (computers)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:32.456Z",
+      "step": "Selected computer: Simple Computer",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:34.192Z",
+      "step": "Configured Processor: Slow",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:34.223Z",
+      "step": "Configured RAM: 2 GB",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:34.254Z",
+      "step": "Configured HDD: 320",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:34.288Z",
+      "step": "Configured Software: Image Viewer",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:34.646Z",
+      "step": "Computer added to cart",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:35.649Z",
+      "step": "Processing product 2: Blue and green Sneaker (apparel)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:36.189Z",
+      "step": "Selected apparel: Blue and green Sneaker",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:38.008Z",
+      "step": "Configured size: 10, color: Black",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:38.365Z",
+      "step": "Apparel added to cart",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:39.367Z",
+      "step": "Processing product 3: 3rd Album (digital)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:39.872Z",
+      "step": "Selected digital product: 3rd Album",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:39.873Z",
+      "step": "Digital downloads added",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:40.880Z",
+      "step": "Processing product 4: Music 1 (digital)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:42.424Z",
+      "step": "Music 1 selected",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:42.425Z",
+      "step": "Digital downloads added",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:43.435Z",
+      "step": "Processing product 5: Music 2 (digital)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:44.970Z",
+      "step": "Music 2 selected",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:44.970Z",
+      "step": "Digital downloads added",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:45.974Z",
+      "step": "Processing product 6: Smartphone (electronics)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:46.972Z",
+      "step": "Selected cell phone: Smartphone",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:47.980Z",
+      "step": "Processing product 7: Phone Cover (electronics)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:49.038Z",
+      "step": "Selected phone cover: Phone Cover",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:50.174Z",
+      "step": "Configured manufacturer: Apple, color: Blue",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:50.519Z",
+      "step": "Phone cover added to cart",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:51.549Z",
+      "step": "Processing product 8: Diamond Heart (jewelry)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:53.179Z",
+      "step": "Jewelry added to cart",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:54.183Z",
+      "step": "Step 4: Validating cart contents",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.283Z",
+      "step": "Found 8 items in cart",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.285Z",
+      "step": "Item 1: Simple Computer - Price: $800, Qty: 1, Total: $800 (PASS)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.285Z",
+      "step": "Item 2: Blue and green Sneaker - Price: $11, Qty: 1, Total: $11 (PASS)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.286Z",
+      "step": "Item 3: 3rd Album - Price: $1, Qty: 1, Total: $1 (PASS)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.287Z",
+      "step": "Item 4: Music 2 - Price: $3, Qty: 1, Total: $3 (PASS)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.288Z",
+      "step": "Item 5: Music 2 - Price: $10, Qty: 1, Total: $10 (PASS)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.288Z",
+      "step": "Item 6: Smartphone - Price: $100, Qty: 1, Total: $100 (PASS)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.289Z",
+      "step": "Item 7: Phone Cover - Price: $10, Qty: 1, Total: $10 (PASS)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.290Z",
+      "step": "Item 8: Black & White Diamond Heart - Price: $130, Qty: 1, Total: $130 (PASS)",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.292Z",
+      "step": "UI Subtotal: $1065",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.293Z",
+      "step": "Calculated Subtotal: $1065",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.294Z",
+      "step": "Subtotal validation PASSED",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.294Z",
+      "step": "Step 5: Generating test evidence",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.592Z",
+      "step": "Evidence screenshot saved: C:\\Users\\youss\\Bamboo_Assesment\\test-results\\screenshots\\final-cart-1766958295295.png",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.593Z",
+      "step": "Cart summary saved: C:\\Users\\youss\\Bamboo_Assesment\\test-results\\cart-summary.json",
+      "status": "info"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.593Z",
+      "step": "TEST COMPLETED SUCCESSFULLY",
+      "status": "pass"
+    },
+    {
+      "timestamp": "2025-12-28T21:44:55.595Z",
+      "step": "Test TC001: Place order with multiple products including price validation - Status: passed",
+      "status": "pass"
+    }
+  ],
+  "summary": {
+    "totalSteps": 54,
+    "passed": 12,
+    "failed": 0,
+    "warnings": 0
+  }
+}

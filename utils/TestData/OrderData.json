@@ -1,0 +1,59 @@
+{
+  "user": {
+    "firstName": "Youssef",
+    "lastName": "Amr",
+    "password": "25121998Yy**"
+  },
+  "products": [
+    {
+      "category": "computers",
+      "name": "Simple Computer",
+      "specs": {
+        "Processor": "Slow",
+        "RAM": "2 GB",
+        "HDD": "320",
+        "Software": "Image Viewer"
+      }
+    },
+    {
+      "category": "apparel",
+      "name": "Blue and green Sneaker",
+      "options": {
+        "size": "10",
+        "color": "Black"
+      }
+    },
+    {
+      "category": "digital",
+      "name": "3rd Album"
+    },
+    {
+      "category": "digital",
+      "name": "Music 1",
+      "downloads": "Music 1"
+    },
+    {
+      "category": "digital",
+      "name": "Music 2",
+      "downloads": "Music 2"
+    },
+    {
+      "category": "electronics",
+      "subcategory": "Cell phones",
+      "name": "Smartphone"
+    },
+    {
+      "category": "electronics",
+      "subcategory": "Phone Cover",
+      "name": "Phone Cover",
+      "options": {
+        "manufacturer": "Apple",
+        "color": "Blue"
+      }
+    },
+    {
+      "category": "jewelry",
+      "name": "Diamond Heart"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="29.437450000000002">
+<testsuite name="multi-product-checkout.spec.js" timestamp="2025-12-28T21:44:26.370Z" hostname="chromium" tests="1" failures="0" skipped="0" time="28.469" errors="0">
+<testcase name="E-commerce Order Placement Test Suite › TC001: Place order with multiple products including price validation" classname="multi-product-checkout.spec.js" time="28.469">
+<system-out>
+<![CDATA[[INFO] Test execution started
+[INFO] Starting test: Place order with multiple products
+[INFO] Generated test email: testuser_1766958267297_x3rnif@testmail.com
+[INFO] Step 1: Navigating to website
+[INFO] Step 2: User registration
+Registration successful
+[PASS] User registration successful
+[PASS] User logged in and on dashboard
+[INFO] Step 3: Processing 8 products from JSON
+[INFO] Processing product 1: Simple Computer (computers)
+[INFO] Selected computer: Simple Computer
+[INFO] Configured Processor: Slow
+[INFO] Configured RAM: 2 GB
+[INFO] Configured HDD: 320
+[INFO] Configured Software: Image Viewer
+Simple Computer added successfully
+[PASS] Computer added to cart
+[INFO] Processing product 2: Blue and green Sneaker (apparel)
+[INFO] Selected apparel: Blue and green Sneaker
+[INFO] Configured size: 10, color: Black
+Apparel added successfully
+[PASS] Apparel added to cart
+[INFO] Processing product 3: 3rd Album (digital)
+[INFO] Selected digital product: 3rd Album
+[PASS] Digital downloads added
+[INFO] Processing product 4: Music 1 (digital)
+Music 1 added successfully
+[INFO] Music 1 selected
+[PASS] Digital downloads added
+[INFO] Processing product 5: Music 2 (digital)
+Music 2 added successfully
+[INFO] Music 2 selected
+[PASS] Digital downloads added
+[INFO] Processing product 6: Smartphone (electronics)
+[INFO] Selected cell phone: Smartphone
+[INFO] Processing product 7: Phone Cover (electronics)
+[INFO] Selected phone cover: Phone Cover
+[INFO] Configured manufacturer: Apple, color: Blue
+Phone Cover added successfully
+[PASS] Phone cover added to cart
+[INFO] Processing product 8: Diamond Heart (jewelry)
+Diamond heart necklace added successfully
+[PASS] Jewelry added to cart
+[INFO] Step 4: Validating cart contents
+Number of Products in the cart: 8 items.
+[ { name: [32m'Simple Computer'[39m, price: [33m800[39m, qty: [33m1[39m, total: [33m800[39m } ]
+[
+  { name: [32m'Simple Computer'[39m, price: [33m800[39m, qty: [33m1[39m, total: [33m800[39m },
+  { name: [32m'Blue and green Sneaker'[39m, price: [33m11[39m, qty: [33m1[39m, total: [33m11[39m }
+]
+[
+  { name: [32m'Simple Computer'[39m, price: [33m800[39m, qty: [33m1[39m, total: [33m800[39m },
+  { name: [32m'Blue and green Sneaker'[39m, price: [33m11[39m, qty: [33m1[39m, total: [33m11[39m },
+  { name: [32m'3rd Album'[39m, price: [33m1[39m, qty: [33m1[39m, total: [33m1[39m }
+]
+[
+  { name: [32m'Simple Computer'[39m, price: [33m800[39m, qty: [33m1[39m, total: [33m800[39m },
+  { name: [32m'Blue and green Sneaker'[39m, price: [33m11[39m, qty: [33m1[39m, total: [33m11[39m },
+  { name: [32m'3rd Album'[39m, price: [33m1[39m, qty: [33m1[39m, total: [33m1[39m },
+  { name: [32m'Music 2'[39m, price: [33m3[39m, qty: [33m1[39m, total: [33m3[39m }
+]
+[
+  { name: [32m'Simple Computer'[39m, price: [33m800[39m, qty: [33m1[39m, total: [33m800[39m },
+  { name: [32m'Blue and green Sneaker'[39m, price: [33m11[39m, qty: [33m1[39m, total: [33m11[39m },
+  { name: [32m'3rd Album'[39m, price: [33m1[39m, qty: [33m1[39m, total: [33m1[39m },
+  { name: [32m'Music 2'[39m, price: [33m3[39m, qty: [33m1[39m, total: [33m3[39m },
+  { name: [32m'Music 2'[39m, price: [33m10[39m, qty: [33m1[39m, total: [33m10[39m }
+]
+[
+  { name: [32m'Simple Computer'[39m, price: [33m800[39m, qty: [33m1[39m, total: [33m800[39m },
+  { name: [32m'Blue and green Sneaker'[39m, price: [33m11[39m, qty: [33m1[39m, total: [33m11[39m },
+  { name: [32m'3rd Album'[39m, price: [33m1[39m, qty: [33m1[39m, total: [33m1[39m },
+  { name: [32m'Music 2'[39m, price: [33m3[39m, qty: [33m1[39m, total: [33m3[39m },
+  { name: [32m'Music 2'[39m, price: [33m10[39m, qty: [33m1[39m, total: [33m10[39m },
+  { name: [32m'Smartphone'[39m, price: [33m100[39m, qty: [33m1[39m, total: [33m100[39m }
+]
+[
+  { name: [32m'Simple Computer'[39m, price: [33m800[39m, qty: [33m1[39m, total: [33m800[39m },
+  { name: [32m'Blue and green Sneaker'[39m, price: [33m11[39m, qty: [33m1[39m, total: [33m11[39m },
+  { name: [32m'3rd Album'[39m, price: [33m1[39m, qty: [33m1[39m, total: [33m1[39m },
+  { name: [32m'Music 2'[39m, price: [33m3[39m, qty: [33m1[39m, total: [33m3[39m },
+  { name: [32m'Music 2'[39m, price: [33m10[39m, qty: [33m1[39m, total: [33m10[39m },
+  { name: [32m'Smartphone'[39m, price: [33m100[39m, qty: [33m1[39m, total: [33m100[39m },
+  { name: [32m'Phone Cover'[39m, price: [33m10[39m, qty: [33m1[39m, total: [33m10[39m }
+]
+[
+  { name: [32m'Simple Computer'[39m, price: [33m800[39m, qty: [33m1[39m, total: [33m800[39m },
+  { name: [32m'Blue and green Sneaker'[39m, price: [33m11[39m, qty: [33m1[39m, total: [33m11[39m },
+  { name: [32m'3rd Album'[39m, price: [33m1[39m, qty: [33m1[39m, total: [33m1[39m },
+  { name: [32m'Music 2'[39m, price: [33m3[39m, qty: [33m1[39m, total: [33m3[39m },
+  { name: [32m'Music 2'[39m, price: [33m10[39m, qty: [33m1[39m, total: [33m10[39m },
+  { name: [32m'Smartphone'[39m, price: [33m100[39m, qty: [33m1[39m, total: [33m100[39m },
+  { name: [32m'Phone Cover'[39m, price: [33m10[39m, qty: [33m1[39m, total: [33m10[39m },
+  {
+    name: [32m'Black & White Diamond Heart'[39m,
+    price: [33m130[39m,
+    qty: [33m1[39m,
+    total: [33m130[39m
+  }
+]
+[INFO] Found 8 items in cart
+[INFO] Item 1: Simple Computer - Price: $800, Qty: 1, Total: $800 (PASS)
+[INFO] Item 2: Blue and green Sneaker - Price: $11, Qty: 1, Total: $11 (PASS)
+[INFO] Item 3: 3rd Album - Price: $1, Qty: 1, Total: $1 (PASS)
+[INFO] Item 4: Music 2 - Price: $3, Qty: 1, Total: $3 (PASS)
+[INFO] Item 5: Music 2 - Price: $10, Qty: 1, Total: $10 (PASS)
+[INFO] Item 6: Smartphone - Price: $100, Qty: 1, Total: $100 (PASS)
+[INFO] Item 7: Phone Cover - Price: $10, Qty: 1, Total: $10 (PASS)
+[INFO] Item 8: Black & White Diamond Heart - Price: $130, Qty: 1, Total: $130 (PASS)
+[INFO] UI Subtotal: $1065
+[INFO] Calculated Subtotal: $1065
+[PASS] Subtotal validation PASSED
+[INFO] Step 5: Generating test evidence
+[INFO] Evidence screenshot saved: C:\Users\youss\Bamboo_Assesment\test-results\screenshots\final-cart-1766958295295.png
+[INFO] Cart summary saved: C:\Users\youss\Bamboo_Assesment\test-results\cart-summary.json
+[PASS] TEST COMPLETED SUCCESSFULLY
+[PASS] Test TC001: Place order with multiple products including price validation - Status: passed
+Report generated: C:\Users\youss\Bamboo_Assesment\test-results\test-report.json
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

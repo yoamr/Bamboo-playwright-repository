@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-12-28T21:44:55.593Z",
+  "email": "testuser_1766958267297_x3rnif@testmail.com",
+  "addedProducts": [
+    {
+      "category": "computers",
+      "name": "Simple Computer",
+      "specs": {
+        "Processor": "Slow",
+        "RAM": "2 GB",
+        "HDD": "320",
+        "Software": "Image Viewer"
+      }
+    },
+    {
+      "category": "apparel",
+      "name": "Blue and green Sneaker",
+      "options": {
+        "size": "10",
+        "color": "Black"
+      }
+    },
+    {
+      "category": "digital",
+      "name": "3rd Album"
+    },
+    {
+      "category": "digital",
+      "name": "Music 1",
+      "downloads": "Music 1"
+    },
+    {
+      "category": "digital",
+      "name": "Music 2",
+      "downloads": "Music 2"
+    },
+    {
+      "category": "electronics",
+      "subcategory": "Phone Cover",
+      "name": "Phone Cover",
+      "options": {
+        "manufacturer": "Apple",
+        "color": "Blue"
+      }
+    },
+    {
+      "category": "jewelry",
+      "name": "Diamond Heart"
+    }
+  ],
+  "cartItems": [
+    {
+      "name": "Simple Computer",
+      "price": 800,
+      "qty": 1,
+      "total": 800
+    },
+    {
+      "name": "Blue and green Sneaker",
+      "price": 11,
+      "qty": 1,
+      "total": 11
+    },
+    {
+      "name": "3rd Album",
+      "price": 1,
+      "qty": 1,
+      "total": 1
+    },
+    {
+      "name": "Music 2",
+      "price": 3,
+      "qty": 1,
+      "total": 3
+    },
+    {
+      "name": "Music 2",
+      "price": 10,
+      "qty": 1,
+      "total": 10
+    },
+    {
+      "name": "Smartphone",
+      "price": 100,
+      "qty": 1,
+      "total": 100
+    },
+    {
+      "name": "Phone Cover",
+      "price": 10,
+      "qty": 1,
+      "total": 10
+    },
+    {
+      "name": "Black & White Diamond Heart",
+      "price": 130,
+      "qty": 1,
+      "total": 130
+    }
+  ],
+  "subtotal": 1065,
+  "calculatedSubtotal": 1065
+}
